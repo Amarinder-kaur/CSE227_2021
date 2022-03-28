@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CSE227_2021">
         <activity
-            android:name=".P3TwoViewonSamectivity"
-            android:exported="true" >
+            android:name=".P14AssignementRocketLaunch"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,13 +19,46 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".P2RotateBallcustomView"
+            android:name=".P13AssignmentAnimationBallSequentialTogether"
+            android:exported="true"></activity>
+        <activity
+            android:name=".P12SensorColorChange"
             android:exported="true">
 
         </activity>
         <activity
-            android:name=".P1CanvasDrawingsMainJava"
+            android:name=".P11AllSensors"
             android:exported="true"></activity>
+        <activity
+            android:name=".P10BasicSensor"
+            android:exported="true" />
+        <activity
+            android:name=".P9ExampleViewSlideThroughAnimation"
+            android:exported="true" />
+        <activity
+            android:name=".P8BasicViewAnimationJavaAnimation"
+            android:exported="true" />
+        <activity
+            android:name=".P7AnimationText"
+            android:exported="true" />
+        <activity
+            android:name=".P6TranslateAnimation"
+            android:exported="true" />
+        <activity
+            android:name=".P4Animation"
+            android:exported="true" />
+        <activity
+            android:name=".P5JavaAnimation"
+            android:exported="true" />
+        <activity
+            android:name=".P1CanvasDrawingsMainJava"
+            android:exported="true" />
+        <activity
+            android:name=".P3TwoViewonSamectivity"
+            android:exported="true" />
+        <activity
+            android:name=".P2RotateBallcustomView"
+            android:exported="true" />
     </application>
 
 </manifest>

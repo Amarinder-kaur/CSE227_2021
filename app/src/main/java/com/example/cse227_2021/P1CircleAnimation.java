@@ -13,6 +13,7 @@ Create simple radius-based animations using ObjectAnimator objects.
 Combine and sequence animations using an AnimatorSet object.
 
  */
+//code details: https://google-developer-training.github.io/android-developer-advanced-course-practicals/unit-5-advanced-graphics-and-views/lesson-12-animations/12-1-p-property-animation/12-1-p-property-animation.html
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
@@ -110,5 +111,4 @@ public class P1CircleAnimation extends View
         super.onDraw(canvas);
         canvas.drawCircle(x,y,mradius,paint);
     }
-
 }

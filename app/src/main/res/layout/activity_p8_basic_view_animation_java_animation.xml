@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".P8BasicViewAnimationJavaAnimation">
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/b1"
+            android:text="rotate" android:onClick="Rotate"/>
+
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/b2"
+            android:text="Move" android:onClick="MovetheImage"/>
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/b3"
+            android:text="RotateScale" android:onClick="RotateScale"/>
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent">
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/b5"
+            android:text="Fade" android:onClick="fade"/>
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/b6"
+            android:text="Blink" android:onClick="blink"/>
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/b7"
+            android:text="ZOOM In" android:onClick="ZOOM_IN"/>
+
+    </LinearLayout>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/i1"
+        android:layout_marginTop="60dp" android:text="CSE227 ANDROID"/>
+</LinearLayout>

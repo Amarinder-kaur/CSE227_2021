@@ -3,8 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE227_2021/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE227_2021/app/src/main/res/layout/activity_p10_basic_sensor.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE227_2021/app/src/main/res/layout/activity_p12_sensor_color_change.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE227_2021/app/src/main/res/layout/activity_p13_assignment_animation_ball_sequential_together.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE227_2021/app/src/main/res/layout/activity_p14_assignement_rocket_launch.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE227_2021/app/src/main/res/layout/activity_p2_rotate_ballcustom_view.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE227_2021/app/src/main/res/layout/activity_p3_two_viewon_samectivity.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE227_2021/app/src/main/res/layout/activity_p4_animation.xml" value="0.1" />
+        <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE227_2021/app/src/main/res/layout/activity_p5_java_animation.xml" value="0.1" />
+        <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE227_2021/app/src/main/res/layout/activity_p6_translate_animation.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE227_2021/app/src/main/res/layout/activity_p7_animation_text.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE227_2021/app/src/main/res/layout/activity_p8_basic_view_animation_java_animation.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE227_2021/app/src/main/res/layout/activity_p9_example_view_slide_through_animation.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE227_2021/app/src/main/res/layout/p1mydrawingwithcolorsartboard.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>

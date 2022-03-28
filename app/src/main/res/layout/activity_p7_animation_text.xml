@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".P7AnimationText">
+    <RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/btnFadeIn" android:text="Fade In" android:layout_margin="5dp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/txt_fade_in" android:text="Fade In" android:layout_alignStart="@+id/txt_fade_out" android:layout_alignLeft="@+id/txt_fade_out" android:layout_alignBottom="@+id/btnFadeIn" android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/btnFadeOut" android:text="Fade Out" android:layout_margin="5dp" android:layout_below="@id/btnFadeIn"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/btnBlink" android:text="Blink" android:layout_margin="5dp" android:layout_below="@id/btnFadeOut"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/btnZoomIn" android:text="Zoom In" android:layout_margin="5dp" android:layout_below="@id/btnBlink"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/txt_blink" android:text="Blink" android:layout_alignStart="@+id/txt_zoom_in" android:layout_alignLeft="@+id/txt_zoom_in" android:layout_alignBottom="@+id/btnBlink" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_gravity="center_horizontal"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/btnZoomOut" android:text="Zoom Out" android:layout_margin="5dp" android:layout_below="@id/btnZoomIn"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/btnRotate" android:text="Rotate" android:layout_margin="5dp" android:layout_below="@id/btnZoomOut"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/btnMove" android:text="Move" android:layout_margin="5dp" android:layout_below="@id/btnRotate"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/btnSlideUp" android:text="Slide Up" android:layout_margin="5dp" android:layout_below="@id/btnMove"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/txt_fade_out" android:text="Fade Out" android:layout_alignStart="@+id/txt_in" android:layout_alignLeft="@+id/txt_in" android:layout_alignBottom="@+id/btnFadeOut" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_gravity="center_horizontal"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/btnSlideDown" android:text="Slide Down" android:layout_margin="5dp" android:layout_below="@id/btnSlideUp"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/btnBounce" android:text="Bounce" android:layout_margin="5dp" android:layout_below="@id/btnSlideDown"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/btnSequential" android:text="Sequential Animation" android:layout_margin="5dp" android:layout_below="@id/btnBounce"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/btnTogether" android:text="Together Animation" android:layout_margin="5dp" android:layout_below="@id/btnSequential"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/txt_in" android:text="Cross Fade Out" android:layout_alignStart="@+id/txt_blink" android:layout_alignLeft="@+id/txt_blink" android:layout_alignBottom="@+id/btnCrossFade" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_gravity="center_horizontal"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/txt_zoom_in" android:text="Zoom In" android:layout_alignStart="@+id/txt_zoom_out" android:layout_alignLeft="@+id/txt_zoom_out" android:layout_alignBottom="@+id/btnZoomIn" android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/txt_zoom_out" android:text="Zoom Out" android:layout_alignBottom="@+id/btnZoomOut" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_toEndOf="@+id/btnSequential" android:layout_toRightOf="@+id/btnSequential"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/txt_rotate" android:text="Rotate" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_toEndOf="@+id/btnSequential" android:layout_toRightOf="@+id/btnSequential" android:layout_above="@+id/btnMove"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/txt_move" android:text="Move" android:layout_alignStart="@+id/txt_slide_up" android:layout_alignLeft="@+id/txt_slide_up" android:layout_alignBottom="@+id/btnMove" android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/txt_slide_up" android:text="Slide Up" android:layout_alignBottom="@+id/btnSlideUp" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_toEndOf="@+id/btnSequential" android:layout_toRightOf="@+id/btnSequential"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/txt_slide_down" android:text="Slide Down" android:layout_alignStart="@+id/txt_slide_up" android:layout_alignLeft="@+id/txt_slide_up" android:layout_alignBottom="@+id/btnSlideDown" android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/txt_bounce" android:text="Bounce" android:layout_alignStart="@+id/txt_slide_down" android:layout_alignLeft="@+id/txt_slide_down" android:layout_alignBottom="@+id/btnBounce" android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/txt_seq" android:text="Sequential" android:layout_alignStart="@+id/txt_bounce" android:layout_alignLeft="@+id/txt_bounce" android:layout_alignBottom="@+id/btnSequential" android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/txt_tog" android:text="Together" android:layout_alignBottom="@+id/btnTogether" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_toEndOf="@+id/btnSequential" android:layout_toRightOf="@+id/btnSequential"/>
+
+</RelativeLayout>
+</ScrollView>

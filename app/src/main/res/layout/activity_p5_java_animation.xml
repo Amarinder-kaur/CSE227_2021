@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".P5JavaAnimation">
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/test">
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/Roatae01"
+        android:text="Rotate" android:onClick="startAnimation"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/Group04"
+        android:text="Group" android:onClick="startAnimation"> </Button>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/Fade03"
+        android:text="Fade" android:onClick="startAnimation"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/Animate02"
+        android:text="Animate" android:onClick="startAnimation"/>
+
+</LinearLayout>
+
+    <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/imageView1"
+        android:src="@drawable/snow" android:layout_centerVertical="true" android:layout_centerHorizontal="true"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView1"
+        android:text="Large Text" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_marginBottom="30dp"
+        android:layout_alignRight="@+id/imageView1" android:layout_above="@+id/imageView1"/>
+
+
+</RelativeLayout>
