@@ -24,6 +24,7 @@ public class P10BasicSensor extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_p10_basic_sensor);
+
         sm = (SensorManager)getSystemService(SENSOR_SERVICE);
         textView1 = (TextView)findViewById(R.id.textView1);
         list = sm.getSensorList(Sensor.TYPE_ACCELEROMETER);
